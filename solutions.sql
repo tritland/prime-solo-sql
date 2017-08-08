@@ -1,8 +1,8 @@
 Get all the users from Chicago
-SELECT username FROM syntax_practice WHERE city='chicago';
+SELECT * FROM syntax_practice WHERE city='chicago';
 
 Get all users with usernames that contain the letter a.
-SELECT username FROM syntax_practice WHERE username LIKE '%a%'
+SELECT * FROM syntax_practice WHERE username LIKE '%a%'
 
 The bank is giving a new customer bonus! Update all records with an 
 account balance of 0.00 and a transactions_attempted of 0. Give them a new account balance of 10.00.
